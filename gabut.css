@@ -1,0 +1,85 @@
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(19, 19, 19);
+    top: 0;
+    left: 50%;
+    border-radius: 8px;
+    width: max-content;
+    width: 20%;
+    transform: translateX(-50%);
+    z-index: 99999;
+
+}
+
+.maki img {
+  animation: meluncurBawah 1.2s ease-out forwards;
+}
+@keyframes meluncurBawah {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); /* Mulai dari bawah 100px */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);     /* Naik ke posisi normal */
+  }
+}
+
+
+.menu {
+   
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    
+    color: white;
+    
+
+}
+.menu:hover {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;background-color: gray;
+   
+}
+.maki{
+    display: flex;
+    justify-content: right;
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    align-self: center;
+    
+}
+.namek {
+    margin-right: auto;
+    margin-top: 25%;
+}
+.maki img {
+    width: 27%;
+}
+.spear{
+    display: flex;
+    z-index: 10000;
+
+    justify-content: center;
+
+    
+}
+.spear img {
+    width: 5%;
+}
+.apakek{
+    height: 100px;
+    width: 10px;
+}
+.namekseijin{
+    font-size: 50px;
+}
